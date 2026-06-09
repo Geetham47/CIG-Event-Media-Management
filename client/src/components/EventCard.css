@@ -1,0 +1,63 @@
+.event-card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+
+  border-radius: 16px;
+
+  box-shadow:
+    0 8px 20px
+    rgba(0, 0, 0, 0.08);
+
+  transition: all 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+
+  box-shadow:
+    0 12px 30px
+    rgba(0, 0, 0, 0.12);
+}
+
+.event-card h2 {
+  color: #1e40af;
+  margin-bottom: 12px;
+}
+
+.event-card p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.event-card button {
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.event-card button:hover {
+  opacity: 0.9;
+}
+
+.event-card button:first-of-type {
+  background: #2563eb;
+  color: white;
+}
+
+.event-card img,
+.event-card video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.event-card input,
+.event-card select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}

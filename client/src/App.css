@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0f172a;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.event-card {
+  background-color: #1e293b;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  text-align: left;
+}
+
+.event-card h2 {
+  margin-top: 0;
+}

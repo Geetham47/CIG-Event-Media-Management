@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cig-ai-tagging",
+  "private_key_id": "9a4478b51ab6cc63906a9dffc89965cfb1f998a7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDZlczj6kRxavBU\nh0tfdAIwzbt37c7RhoxXpw36PdqPxQphGStek7EYo58jRyFsnI7VnrqbrfQ+Xwoi\nH0z8pxJhljDQxDNhj706KVFGV8f9sgjvCAJA6ow0P+n+RuwU6LvY448+eh8Uvq4m\nVQrxcbHe1UPt370zujesiYIQy7p7lvjlUuOwCdtrSqWvxpZdKLUv7AfylOC+3HKG\ny7NKNe6w7676CpjqE8rn1g9RTAqY+/Z1xNul7eWrb4c1hRlDd3SF+OUVx52wx1x1\nxK7fMnIYy2kfyyTjNd1npx4VaLq3rSRDLvxSs94++jgPMqwnJu3WanRgHJaNc+hr\nASY7Zs2JAgMBAAECggEAZmbJaGRbNNOi6u1HrFNBKq3Qcldh1BtSFniBLAoLQEl4\nIo2Baz/wA4wR+7zgvqiJ0oCjC1yZi/cXokp/5ZJNpM7WB5KnKd3HrUU/wm7SqROu\nf6yRvvKD7J0951WCiy6jJaanRjycPxukg1bX0Rz0nM5a62s2tM8Jn7KRm4z+JWZg\ncwkmAkjOjXEJ1ChPuC7GxLYn5lTZAHCfsRvN2G+rVPZynuhGHhHpGE4CR13Dt8LB\nSBbCQGT1c6RwLBKAK1sy0ucAd7cxSUkS0FQgvSq7Hooc/VU63+BZRmYMNstOpf6i\nqmNn3kK2Vog0g1Ubcvhr25QskccEjFlZm7+LRJhCJwKBgQDs/uFXHRE7uv1Ehy7y\n0BgvFoXg7E1yH2mXV30S3foGjbVdK2lOJucD9wq+VykNQP+gzfXzvtgCBGw9zfTe\nJ9t4aqU6w1dAkEJU+wRhdmgJkzktWTVanoiwldHaxIwnO2rvfMBkKUjxFVerH1j2\nGEpBYWOyeZ6+c3eSNeN/f0eG9wKBgQDrCHS8ZilEX+IVaES9Za1V4oMRj5iEEDxg\n1lPPc9pvFN3WJJw6lknYq/QTplGxXZewWKv/Xpt/zp8GUepoc6XtOVyXz7E/rc6W\nOz6V9xb03Rep285qN02pdlxQniz2NgJumc1wq06tOdk9F0dG1F57fuHhIz8hjIv8\nD4yFqZivfwKBgB9QEc/jvEorC5mJTu+wBPH7xNaSAi2I7vebDKB4ibdh88uKl9BG\nnZFNi7LYa0kgBGZnsA5zcbDair6jvq23kGzZklkwRA/4v3rg65RBA7/4Hr7aIY2G\nksLaGK8R9v6cACYCUp0pQ0TvL/UhICzryqvWxUhof0vkj7DWw+ctlvLDAoGAC/iQ\nSZBChdMEZua6qZLmMzuoRVq0//T7vkrsVeKmu4Wqjt+qfWluNXT8p4uPGaOUuEyr\n5gPhk67odp/xeoR5bQ3A45KWipHFte0qkOTW7H3eWK5zYwGSGRGIPirwS1IQ6aU3\ny4dOKJCLugrXfIoQjeW2h4sOCh1oe9wm4h/zQO0CgYEAxHqi94N4SAYmmoJie3r6\nZLIiaG/R7LkLsYdZX9Kawou4e8I1cSjpeExGMTgmR8zpae9dHqZcHLNUK2FiTnQ0\n6ZJ3IDwb0ULAQqTcvTgEW8xYSu7YOQ/6orTaN4otJLTMuX/2W30kOpC6MBtFYQZ5\nVrZ/39fKc1rTvp1khxcqvtY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "vision-service@cig-ai-tagging.iam.gserviceaccount.com",
+  "client_id": "110575652617906642138",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vision-service%40cig-ai-tagging.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
