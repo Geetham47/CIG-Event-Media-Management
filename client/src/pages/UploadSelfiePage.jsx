@@ -32,7 +32,7 @@ function UploadSelfiePage() {
 
         const response =
           await axios.post(
-            "http://localhost:5000/api/users/upload-selfie",
+            "https://cig-backend-xr8z.onrender.com/api/users/upload-selfie",
             formData,
             {
               headers: {

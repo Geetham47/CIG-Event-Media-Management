@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL =
-  "http://localhost:5000/api/comments";
+  "https://cig-backend-xr8z.onrender.com/api/comments";
 
 export const createComment = async (
   text,

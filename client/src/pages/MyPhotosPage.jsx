@@ -20,7 +20,7 @@ function MyPhotosPage() {
 
         const response =
           await axios.get(
-            "http://localhost:5000/api/media/my-photos",
+            "https://cig-backend-xr8z.onrender.com/api/media/my-photos",
             {
               headers: {
                 Authorization:

@@ -25,7 +25,7 @@ function Notifications() {
 
         const res =
           await axios.get(
-            "http://localhost:5000/api/notifications",
+            "/api/notifications",
             {
               headers: {
                 Authorization:
@@ -43,7 +43,7 @@ function Notifications() {
     };
 
   return (
-    <div
+    <divhttps://cig-backend-xr8z.onrender.com
       style={{
         marginTop: "30px",
         background: "white",
@@ -85,7 +85,7 @@ function Notifications() {
           )
         )
       )}
-    </div>
+    </divhttps:>
   );
 }
 
