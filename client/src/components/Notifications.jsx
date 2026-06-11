@@ -43,50 +43,42 @@ function Notifications() {
     };
 
   return (
-    <divhttps://cig-backend-xr8z.onrender.com
+  <div
+    style={{
+      marginTop: "30px",
+      background: "white",
+      padding: "20px",
+      borderRadius: "15px",
+    }}
+  >
+    <h2
       style={{
-        marginTop: "30px",
-        background: "white",
-        padding: "20px",
-        borderRadius: "15px",
+        color: "#1e40af",
       }}
     >
-      <h2
-  style={{
-    color: "#1e40af",
-  }}
->
-  🔔 Notifications
-</h2>
+      🔔 Notifications
+    </h2>
 
-      {notifications.length ===
-      0 ? (
-        <p>
-          No notifications
-        </p>
-      ) : (
-        notifications.map(
-          (notification) => (
-            <div
-              key={
-                notification._id
-              }
-              style={{
-                padding:
-                  "10px",
-                borderBottom:
-                  "1px solid #eee",
-              }}
-            >
-              {
-                notification.message
-              }
-            </div>
-          )
+    {notifications.length === 0 ? (
+      <p>No notifications</p>
+    ) : (
+      notifications.map(
+        (notification) => (
+          <div
+            key={notification._id}
+            style={{
+              padding: "10px",
+              borderBottom:
+                "1px solid #eee",
+            }}
+          >
+            {notification.message}
+          </div>
         )
-      )}
-    </divhttps:>
-  );
+      )
+    )}
+  </div>
+);
 }
 
 export default Notifications;
