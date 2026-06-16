@@ -34,9 +34,19 @@ function Notifications() {
             }
           );
 
-        setNotifications(
-          res.data
-        );
+        console.log("Notifications API:", res.data);
+
+if (Array.isArray(res.data)) {
+  setNotifications(res.data);
+} else if (
+  Array.isArray(res.data.notifications)
+) {
+  setNotifications(
+    res.data.notifications
+  );
+} else {
+  setNotifications([]);
+}
       } catch (error) {
         console.error(error);
       }
@@ -62,8 +72,9 @@ function Notifications() {
     {notifications.length === 0 ? (
       <p>No notifications</p>
     ) : (
-      notifications.map(
-        (notification) => (
+      Array.isArray(notifications) &&
+notifications.map(
+  (notification) => (
           <div
             key={notification._id}
             style={{
